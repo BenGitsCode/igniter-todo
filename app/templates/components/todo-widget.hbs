@@ -1,4 +1,4 @@
-{{add-too onAdd=(action 'addTodo')}}
+{{add-todo onAdd=(action 'addTodo')}}
 
 {{!-- Todo-widget component now calls the add-todo component and passing in the function. Whenever I submit the form in the add-todo, the function addTodo in todo-widget will be invoked. In short, sending the action up to the parent component (todo-widget) with a aparameter, the text of the input field. Effectively adding a todo to our list --}}
 
